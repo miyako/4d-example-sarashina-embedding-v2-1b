@@ -1,7 +1,7 @@
 //%attributes = {}
 /*
 
-Srashina Embeddingの場合
+Sarashina Embeddingの場合
 text: 
 でレコードを作成する必要があります。
 
