@@ -1,5 +1,8 @@
-# 4d-example-sarashina-embedding-v2-1b
-Sarashina Embedding in GGUF
+Sarashina Embedding is a text embedding model released by SoftBank in 2025. 
+
+|`max_position_embeddings`|`hidden_size`|`num_hidden_layers`|`pooling`
+|-:|-:|-:|-:|
+|`8192`|`1792`|`24`|`last`
 
 ```4d
 var $AIClient : cs.AIKit.OpenAI
