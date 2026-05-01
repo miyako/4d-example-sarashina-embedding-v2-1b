@@ -31,7 +31,7 @@ $URL:="keisuke-miyako/sarashina-embedding-v2-1b-gguf-q4_k_m"
 
 $cache_type_k:="f16"
 $cache_type_v:="f16"
-$n_gpu_layers:=0
+$n_gpu_layers:=99
 $threads:=6
 $batches:=1
 $ubatch_size:=1024
