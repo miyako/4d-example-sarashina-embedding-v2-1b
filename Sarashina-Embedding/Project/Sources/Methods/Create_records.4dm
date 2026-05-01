@@ -1,7 +1,7 @@
 //%attributes = {"invisible":true}
 /*
 
-Srashina Embeddingの場合
+Sarashina Embeddingの場合
 "text: "のトークン数を計算に含めて
 テキストを分割する必要があります。
 
