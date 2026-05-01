@@ -1,0 +1,23 @@
+{
+	"methods": {
+		"test_extract": {
+			"timeStamp": "2026-05-01T02:55:36Z"
+		},
+		"Create_records": {
+			"timeStamp": "2026-04-28T05:44:29Z"
+		},
+		"test_llama": {
+			"timeStamp": "2026-04-28T05:31:25Z"
+		},
+		"OnModelDownloaded": {
+			"timeStamp": "2026-04-28T05:38:16Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"Create_embeddings_llama": {
+			"timeStamp": "2026-04-28T05:45:36Z"
+		}
+	}
+}
