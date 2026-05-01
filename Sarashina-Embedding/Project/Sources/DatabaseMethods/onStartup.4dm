@@ -34,7 +34,7 @@ $cache_type_v:="f16"
 $n_gpu_layers:=0
 $threads:=6
 $batches:=1
-$ubatch_size:=512
+$ubatch_size:=1024
 $batch_size:=1024
 $max_position_embeddings:=1024
 

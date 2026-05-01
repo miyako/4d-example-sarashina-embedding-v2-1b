@@ -1,4 +1,12 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
+/*
+
+Srashina Embeddingの場合
+"text: "のトークン数を計算に含めて
+テキストを分割する必要があります。
+
+*/
+
 TRUNCATE TABLE:C1051([Documents:1])
 SET DATABASE PARAMETER:C642([Documents:1]; Table sequence number:K37:31; 0)
 
@@ -10,10 +18,10 @@ For each ($file; $files)
 	var $task : Object
 	$task:={file: $file; \
 		text_as_tokens: False:C215; \
-		tokens_length: 1500; \
+		tokens_length: 1019; \
 		overlap_ratio: 0.09; \
 		unique_values_only: True:C214; \
-		pooling_mode: Extract Pooling Mode Mean}
+		pooling_mode: Extract Pooling Mode Last}
 	var $extracted : Object
 	$extracted:=Extract(Extract Document MD; Extract Output Collection; $task)
 	If ($extracted.success)

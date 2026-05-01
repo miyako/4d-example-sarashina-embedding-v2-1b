@@ -1,13 +1,13 @@
 {
 	"methods": {
-		"test_extract": {
-			"timeStamp": "2026-05-01T02:55:36Z"
-		},
 		"Create_records": {
-			"timeStamp": "2026-04-28T05:44:29Z"
+			"timeStamp": "2026-05-01T03:46:30Z",
+			"attributes": {
+				"invisible": true
+			}
 		},
 		"test_llama": {
-			"timeStamp": "2026-04-28T05:31:25Z"
+			"timeStamp": "2026-05-01T02:55:36Z"
 		},
 		"OnModelDownloaded": {
 			"timeStamp": "2026-04-28T05:38:16Z",
@@ -17,7 +17,7 @@
 			}
 		},
 		"Create_embeddings_llama": {
-			"timeStamp": "2026-04-28T05:45:36Z"
+			"timeStamp": "2026-05-01T03:40:02Z"
 		}
 	}
 }

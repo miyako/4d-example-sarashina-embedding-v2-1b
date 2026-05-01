@@ -1,4 +1,12 @@
 //%attributes = {}
+/*
+
+Srashina Embeddingの場合
+text: 
+でレコードを作成する必要があります。
+
+*/
+
 var $documents : cs:C1710.DocumentsSelection
 $documents:=ds:C1482.Documents.all()
 
@@ -13,5 +21,7 @@ For each ($document; $documents)
 	If ($batch.success)
 		$document.Embeddings:=$batch.embedding.embedding
 		$document.save()
+	Else 
+		TRACE:C157
 	End if 
 End for each 
